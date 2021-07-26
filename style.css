@@ -1,23 +1,23 @@
 .heading{
-  position: absolute;
-width: 805px;
+  /* position: absolute; */
+/* width: 805px;
 height: 202px;
 left: 0px;
 top: 0px;
-padding-left: 700px;
+padding-left: 700px; */
 
 font-family: Cera Pro;
 font-style: normal;
 font-weight: bold;
-font-size: 80px;
-line-height: 101px;
-display: flex;
+font-size: 65px;
+line-height: 129px;
+/* display: flex; */
 align-items: center;
 color: #041A39;
-
+margin-left: 5%;
 }
 
-.grow{
+/* .grow{
   position: absolute;
 left: 9.6%;
 right: 8%;
@@ -28,10 +28,10 @@ bottom: 7.73%;
 height: 80%;
 width: 50%;
 
-}
+} */
 nav{
     margin-top: 3%;
-    width: 70%;
+    /* width: 70%; */
     margin-left: 20%;
     font-family: Ubuntu;
 }
@@ -59,14 +59,14 @@ color: grey;
 
 
 .con1{
-    position: static;
+    /* position: static;
     width: 500px;
     height: 202px;
 left: 0px;
-top: 210px;
-padding-left: 700px;
+top: 210px; */
+/* padding-left: 700px;
 padding-top: 200px;
-padding-right: 10px;
+padding-right: 10px; */
 
 /* Tablet/H5 */
 
@@ -90,7 +90,10 @@ flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
-margin: 8px 0px
+margin: 8px 0px;
+
+padding-left: 0vh;
+padding-right: 9vh;
   }
 
   @media screen and (max-width: 600px) {
@@ -127,4 +130,15 @@ flex: none;
 order: 0;
 flex-grow: 0;
 margin: 0px 24px;
+}
+
+/* Ganesh code  */
+.landing_page{
+  display: flex;
+}
+
+.heading_image img{
+  height: auto;
+  width: 75vh;
+  margin-left: 10vh;
 }
